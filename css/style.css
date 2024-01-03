@@ -1,0 +1,22 @@
+h1, h2, h3{
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+}
+.navbar{
+    min-height: 8em;
+    /* background-image: url("../images/nav.gif"); */
+    background-position: center; 
+}
+
+.navbar a {
+    color: #FFF !important;
+}
+
+.navbar-light .navbar-toggler {
+    color: #FFF;
+
+  }
