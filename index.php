@@ -10,8 +10,8 @@
 </head>
 <body>
 <?php
-require("components/navbar.php");
-require("components/about.php");
+require("components/navbar/index.html");
+require("components/about/index.html");
 
 ?>    
 </body>
