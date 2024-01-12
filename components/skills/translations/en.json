@@ -1,0 +1,7 @@
+{
+    "MAIN_HEADER": "My Toolkit:",
+    "LIST_ONE" : "<li>PHP</li><li>HTML5</li><li>CSS</li><li>JavaScript</li><li>Python</li>",
+    "LIST_TWO":"<li>SQL</li>    <li>WordPress</li>    <li>Bash</li>    <li>Linux & Windows</li>    <li>Stripe</li>",
+    "LIST_THREE":"<li>Bootstrap</li>    <li>Phaser</li>    <li>Git</li>",
+    "EXTRA_CONTENT": "And much much more .."
+}
