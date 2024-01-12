@@ -9,5 +9,5 @@ fetchTranslationJSON("skills").then(translation =>{
     skillsListOne.innerHTML = translation.LIST_ONE;
     skillsListTwo.innerHTML = translation.LIST_TWO;
     skillsListThree.innerHTML = translation.LIST_THREE;
-    skillsExtraContent = translation.EXTRA_CONTENT;
+    skillsExtraContent.innerHTML = translation.EXTRA_CONTENT;
 })
