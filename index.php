@@ -1,18 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
 <?php
+//localization requirement: value for selected language
+//work in progress, currently setting a quick fallback default value and hardcoded switch between dutch and english.
+//As it stands now this feature will require lots of code digging to add additional languages and should be
+//made easier to work with. For now it serves as an entry point to start modularizing the application. 
+//Marked for rework.
+if(!isset($_GET['language'])){  //setting a default value for language by GET request
+    $_GET['language']='en';
+}
+
+switch($_GET['lang']){          //setting the language variable in the global scope.
+    case "en";
+    $language = 'en';
+    break;
+
+    case "nl";
+    $language = 'nl';
+    break;
+
+    default;
+    $language = 'en';
+}
+
+//loading view components. Add components in the order you wish to display them to add features. 
+//head must be loaded first as it contains the frameworks used by other components.
+require("components/head/index.html");
 require("components/navbar/index.html");
 require("components/about/index.html");
-
+require("components/skills/index.html");
+require("components/availability/index.html");
+require("components/contact/index.html");
+require("components/portfolio/index.html");
 ?>    
 </body>
 </html>
