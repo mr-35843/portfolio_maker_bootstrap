@@ -20,10 +20,10 @@ switch($_GET['lang']){          //setting the language variable in the global sc
     default;
     $language = 'en';
 }
-
 //loading view components. Add components in the order you wish to display them to add features. 
 //head must be loaded first as it contains the frameworks used by other components.
 require("components/head/index.html");
+require("components/language/main.php");
 require("components/navbar/index.html");
 require("components/about/index.html");
 require("components/skills/index.html");

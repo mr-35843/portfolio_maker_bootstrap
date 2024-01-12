@@ -1,36 +1,30 @@
 <div class="container-fluid row" style="margin-top: 1em;">
     <div class="col-12">
-        <h1>MAIN_HEADER</h1>
+        <h1 id="aboutMainHeader"></h1>
     </div>
     <div class="col-md-1"></div>
     <div class="col-12 col-md-3">
         <center><img src="images/profilePicture.jpg" alt="Picture of developer David van Kleef" class="img-fluid"
-                style="margin-top:1.5em"></center>
+                style="margin-top:1.5em" id="aboutMainImage"></center>
     </div>
-
-    <div class="col-12 col-md-6" style="margin-top:1em;">
-        MAIN_CONTENT
-    </div>
+    <div class="col-12 col-md-6" style="margin-top:1em;" id="aboutMainContent"></div>
     <div class="col-md-1"></div>
 </div>
 
 <div class="container-fluid row">
-
     <div class="col-12"><br><br>
-        <h2>SECONDARY_HEADER</h2>
+        <h2 id="aboutSecondaryHeader"></h2>
     </div>
-
     <div class="col-md-1"></div>
     <div class="col-md-8">
-       
-        <h3 style="text-align: left;">PROJECT_BASED_HEADER</h3>\
-            PROJECT_BASED_CONTENT
-        
-        <h3 style="text-align: left;">EMPOYMENT_BASED_HEADER</h3>
-        EMPLOYMENT_BASED_CONTENT
+        <h3 style="text-align: left;" id="aboutProjectBasedHeader"></h3>
+        <div id="aboutProjectBasedContent"></div>
+        <h3 style="text-align: left;" id="aboutEmploymentBasedHeader"></h3>
+        <div id="aboutEmploymentBasedContent"></div>
     </div>
 
     <div class="col-md-3" style="border: 1em solid #FFF;margin-top: 1em;">
-        <img class="img-fluid" src="images/what_i_want.jpg" style="margin: 1em;">
+        <img class="img-fluid" src="images/what_i_want.jpg" style="margin: 1em;" id="aboutWhatIWantImage">
     </div>
 </div>
+<script src="components/about/main.js"></script>
