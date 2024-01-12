@@ -4,8 +4,8 @@
 //As it stands now this feature will require lots of code digging to add additional languages and should be
 //made easier to work with. For now it serves as an entry point to start modularizing the application. 
 //Marked for rework.
-if(!isset($_GET['language'])){  //setting a default value for language by GET request
-    $_GET['language']='en';
+if(!isset($_GET['lang'])){  //setting a default value for language by GET request
+    $_GET['lang']='en';
 }
 
 switch($_GET['lang']){          //setting the language variable in the global scope.
