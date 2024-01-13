@@ -1,0 +1,8 @@
+{
+    "MAIN_HEADER" : "Portfolio:",
+    "IMAGE_ONE" : "",
+    "IMAGE_TWO" : "",
+    "IMAGE_THREE" : "",
+    "CONTENT" : ["https://hardstuck.gg/gw2/team-builder/", "hardstuck", "Team builder tool for online gaming experience.","https://wageningen.hybrix.io", "hybrix pilot store", "E-commerce store that acts as a bridge between hybrix's crypto environment and FIAT. This website serves as the FIAT to crypto bridge whereas the banking function in wallet.hybrix.io functions as the crypto to FIAT bridge. Both systems make heavy use of the peer2product API to semi-automate payments.", "https://theisencoaching.nl", "Theisencoaching", "On page SEO optimization, rebuild from PHP5 to PHP8.", "https://github.com/agent725/peer2product", "Peer2Product", "front-end work and theming.", "https://github.com/davidvk89/dkvdev-qr-pay", "QR payment system:", "Application for small businesses to accept payments everywhere!"],
+    "GIT" : ["https://github.com/mr-35843", "https://github.com/davidvk89"]
+}
